@@ -12,8 +12,5 @@
             "default": "stable",
             "description": "Select Flutter SDK version."
         }
-    },
-    "installsAfter": [
-        "ghcr.io/devcontainers/features/common-utils"
-    ]
+    }
 }
