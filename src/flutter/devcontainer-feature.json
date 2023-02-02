@@ -1,0 +1,19 @@
+{
+    "name": "Flutter SDK + Android SDK",
+    "id": "flutter",
+    "version": "1.0.2",
+    "description": "Flutter feature",
+    "options": {
+        "version": {
+            "type": "string",
+            "proposals": [
+                "stable"
+            ],
+            "default": "stable",
+            "description": "Select Flutter SDK version."
+        }
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+    ]
+}
